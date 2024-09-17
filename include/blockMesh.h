@@ -10,9 +10,10 @@
 template<typename num, typename iter>
 class blockMesh{
   private:
-    iter nx, ny, nz;    //Number of nodes in each direction
-    iter nxe, nye, nze; //Number of elements in each direction
-    num dx, dy, dz;     //the uniform sizes in each direction
+    iter nx[3], nxe[3]; //The size of the blockmesh
+    num dx[3];     //The resolution of the blockmesh
   public:
+    
+
 
 }
