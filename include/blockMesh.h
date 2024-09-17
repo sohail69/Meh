@@ -11,9 +11,12 @@ template<typename num, typename iter>
 class blockMesh{
   private:
     iter nx[3], nxe[3]; //The size of the blockmesh
-    num dx[3];     //The resolution of the blockmesh
-  public:
+    num dx[3];          //The resolution of the blockmesh
+    iter nStart, nEnd;  //Local start and end nodes
     
+  public:
+    blockMesh(){
 
+    }
 
 }
