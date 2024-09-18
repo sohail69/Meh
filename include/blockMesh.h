@@ -20,4 +20,11 @@ class blockMesh{
 
     }
 
+    iter Find_IJK_ir()
+
+
+    num FindPointCoord(iter NodeId, iter dim){
+      return 0;
+    };
+
 }
