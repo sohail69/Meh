@@ -22,16 +22,17 @@ class blockMesh{
 
     iter[3] InverseIterator(){
       iter IJK_iters[3];
-      return IJK
+      return IJK;
     };
 
-    iter GlobalNodeID(){
-      
+    iter GlobalNodeID(iter IJK[3]){
+      iter nodeID = IJK[0]*nx[1]*nx[2] + IJK[1]*nx[2] + IJK[2];
+      return nodeID;
     };
 
     num FindPointCoord(iter IJK[3], iter dim){
-      num x = ()(IJK[dim])*dx[dim];
-      return 0;
+      num x = (num)(IJK[dim])*dx[dim];
+      return x;
     };
 
 }
