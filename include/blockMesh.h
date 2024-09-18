@@ -20,10 +20,17 @@ class blockMesh{
 
     }
 
-    iter Find_IJK_ir()
+    iter[3] InverseIterator(){
+      iter IJK_iters[3];
+      return IJK
+    };
 
+    iter GlobalNodeID(){
+      
+    };
 
-    num FindPointCoord(iter NodeId, iter dim){
+    num FindPointCoord(iter IJK[3], iter dim){
+      
       return 0;
     };
 
