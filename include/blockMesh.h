@@ -30,7 +30,7 @@ class blockMesh{
     };
 
     num FindPointCoord(iter IJK[3], iter dim){
-      
+      num x = ()(IJK[dim])*dx[dim];
       return 0;
     };
 
